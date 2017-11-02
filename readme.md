@@ -10,7 +10,7 @@ The namespaces (or resolution paths) of the API should be reflected exactly in t
 
 The actual namespacing of the API resolution paths is very domain specific and should be developed by a team with a good understanding of RESTful design patterns and an understanding of your business.
 
-With that said, consider separating parts of the API that perform and simple proxying functionality to those that add real business value to digital initiatives. like:
+With that said, consider separating parts of the API that perform simple proxying functionality to those that add real business value to digital initiatives. like:
 
 #### /api/*
 

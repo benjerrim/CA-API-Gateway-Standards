@@ -6,11 +6,11 @@ If you find the document useful or want to talk more about these ideas, please f
 
 
 ### API Namespaces
-The namespaces (or resolution paths) of the API should be reflected exactly in the policy tree inside policy manager. This is not mandated by the tool but should be considered a standard and is detailed further under the Policy Naming section below. Complying with this standard makes it much easier for new comers to support the API as finding the policy is trivial once the URI is known. Use folders to do this a appropriate.
+The namespaces (or resolution paths) of the API should be reflected exactly in the policy tree inside policy manager. This is not mandated by the tool but should be considered a standard and is detailed further under the Policy Naming section below. Complying with this standard makes it much easier for new comers to support the API as finding the policy is trivial once the URI is known. Use folders to do this as appropriate.
 
 The actual namespacing of the API resolution paths is very domain specific and should be developed by a team with a good understanding of RESTful design patterns and an understanding of your business.
 
-With that said, consider separating parts of the API that perform and simply proxying functionality to those that add real business value to digital initiatives. like:
+With that said, consider separating parts of the API that perform and simple proxying functionality to those that add real business value to digital initiatives. like:
 
 #### /api/*
 
